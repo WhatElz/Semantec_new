@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "name": "Microsoft Teams",
+    "kategorie": "Kommunikation",
+    "score": "5",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+    "beschreibung": "Microsoft Teams ist ein cloudbasierter Dienst, der Chat, Besprechungen, Notizen und Anhänge kombiniert. Teams bietet eine zentrale Anlaufstelle für die Zusammenarbeit, sodass Teams jederzeit und überall zusammenarbeiten können."
+  },
+  {
+    "id": "02",
+    "name": "Zoom und Slack",
+    "kategorie": "Kommunikation",
+    "score": "4",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Zoom_Video_Communications_logo.svg/1200px-Zoom_Video_Communications_logo.svg.png",
+    "beschreibung": "Zoom ist eine Videokonferenzsoftware, die Videokonferenzen, Online-Meetings, Chat und mobile Zusammenarbeit kombiniert. Slack ist ein cloudbasierter Instant-Messaging-Dienst, der für Teams und Unternehmen entwickelt wurde."
+  },
+  {
+    "id": "03",
+    "name": "Google Meet",
+    "kategorie": "Kommunikation",
+    "score": "3",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Google_Meet_icon_%282020%29.svg/1200px-Google_Meet_icon_%282020%29.svg.png",
+    "beschreibung": "Google Meet ist ein Videokonferenzdienst, der von Google entwickelt wurde. Er ermöglicht es Benutzern, Videokonferenzen mit bis zu 100 Teilnehmern durchzuführen. "
+  },
+  {
+    "id": "04",
+    "name": "Microsoft Office 365",
+    "kategorie": "Office-Tools",
+    "score": "5",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+    "beschreibung": "Microsoft Office 365 ist ein cloudbasierter Dienst, der eine Vielzahl von Anwendungen und Diensten für die Zusammenarbeit und Produktivität bietet. Dazu gehören Word, Excel, PowerPoint, Outlook, OneNote, SharePoint, Teams und mehr. "
+  },
+  {
+    "id": "05",
+    "name": "Google Workspace",
+    "kategorie": "Office-Tools",
+    "score": "4",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_Workspace_Logo.svg/1200px-Google_Workspace_Logo.svg.png",
+    "beschreibung": "Google Workspace ist eine Suite von cloudbasierten Produktivitäts- und Zusammenarbeitswerkzeugen, die von Google entwickelt wurden. Dazu gehören Gmail, Drive, Docs, Sheets, Slides, Calendar und mehr. "
+  },
+  {
+    "id": "06",
+    "name": "Zoho office suite",
+    "kategorie": "Office-Tools",
+    "score": "3",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Zoho Office Suite ist eine cloudbasierte Produktivitäts- und Zusammenarbeitsplattform, die eine Vielzahl von Anwendungen und Diensten wie Writer, Sheet, Show, Mail, Meeting und mehr umfasst. "
+  },
+  {
+    "id": "07",
+    "name": "Apple iWork",
+    "kategorie": "Office-Tools",
+    "score": "2",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Apple iWork ist eine Suite von Produktivitätsanwendungen, die von Apple entwickelt wurden. Dazu gehören Pages, Numbers und Keynote. "
+  },
+  {
+    "id": "08",
+    "name": "Mobile Device Management (MDM) mit entsprechenden Office Tools",
+    "kategorie": "Office-Tools",
+    "score": "1",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Mobile Device Management (MDM) ist eine Technologie, die es Unternehmen ermöglicht, die mobilen Geräte ihrer Mitarbeiter zu verwalten und zu sichern. Dies kann in Kombination mit Office-Tools wie Microsoft Office 365 oder Google Workspace verwendet werden, um die Produktivität und Sicherheit der Mitarbeiter zu verbessern. "
+  },
+  {
+    "id": "09",
+    "name": "Mural",
+    "kategorie": "Office-Tools",
+    "score": "5",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Mural ist eine digitale Arbeitsbereichs- und Kollaborationsplattform, die es Teams ermöglicht, Ideen zu erfassen, zu organisieren und zu teilen. Mural bietet eine Vielzahl von Tools und Funktionen, die die Zusammenarbeit und Kreativität fördern. "
+  },
+  {
+    "id": "10",
+    "name": "Umfassende IT-Security-Lösungen für klein Unternehmen",
+    "kategorie": "IT-Security",
+    "score": "5",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschre    ibung": "Umfassende IT-Security-Lösungen für kleine Unternehmen umfassen eine Vielzahl von Technologien und Diensten, die entwickelt wurden, um die Sicherheit von Unternehmensdaten und -systemen zu gewährleisten. Dazu gehören Firewalls, Antivirensoftware, Verschlüsselung, Zugriffskontrolle, Sicherheitsschulungen und mehr. "
+  },
+  {
+    "id": "11",
+    "name": "Endpoint-Security-Lösungen",
+    "kategorie": "IT-Security",
+    "score": "4",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Endpoint-Security-Lösungen sind Technologien, die entwickelt wurden, um Endgeräte wie Laptops, Smartphones und Tablets vor Bedrohungen zu schützen. Dazu gehören Antivirensoftware, Firewalls, Verschlüsselung, Zugriffskontrolle und mehr. "
+  },
+  {
+    "id": "12",
+    "name": "Cloud-Security-Lösungen",
+    "kategorie": "IT-Security",
+    "score": "3",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Cloud-Security-Lösungen sind Technologien, die entwickelt wurden, um die Sicherheit von Cloud-Diensten und -Anwendungen zu gewährleisten. Dazu gehören Verschlüsselung, Zugriffskontrolle, Sicherheitsüberwachung und mehr. "
+  },
+  {
+    "id": "13",
+    "name": "Vulnerability-Management-Lösungen",
+    "kategorie": "IT-Security",
+    "score": "2",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Vulnerability-Management-Lösungen sind Technologien, die entwickelt wurden, um Schwachstellen in IT-Systemen und -Anwendungen zu identifizieren, zu bewerten und zu beheben. Dazu gehören Schwachstellen-Scans, Risikobewertungen, Patch-Management und mehr. "
+  },
+  {
+    "id": "14",
+    "name": "Penetration-Testing-Services",
+    "kategorie": "IT-Security",
+    "score": "1",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Penetration-Testing-Services sind Dienstleistungen, die von Sicherheitsunternehmen angeboten werden, um die Sicherheit von IT-Systemen und -Anwendungen zu testen. Dabei werden gezielte Angriffe simuliert, um Schwachstellen zu identifizieren und zu beheben. "
+  },
+  {
+    "id": "15",
+    "name": "Sicherheitsbewusstseinsschulungen für Mitarbeiter",
+    "kategorie": "IT-Security",
+    "score": "5",
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zoho_Office_Suite_logo.svg/1200px-Zoho_Office_Suite_logo.svg.png",
+    "beschreibung": "Sicherheitsbewusstseinsschulungen für Mitarbeiter sind Schulungen, die entwickelt wurden, um Mitarbeiter über die Bedeutung von IT-Sicherheit und bewährte Sicherheitspraktiken zu informieren. Dies kann dazu beitragen, das Sicherheitsbewusstsein der Mitarbeiter zu stärken und das Risiko von Sicherheitsvorfällen zu reduzieren. "
+  }
+]

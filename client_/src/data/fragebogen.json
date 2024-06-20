@@ -1,0 +1,358 @@
+[
+  {
+    "id": "kategorie_allgemeines",
+    "category": "Allgemeines"
+  },
+  {
+    "id": "unternehmensname",
+    "question": "Name des Unternehmens:",
+    "type": "text",
+    "maxLength": 30,
+    "placeholder": "z.B. SAP SE",
+    "weight": 1,
+    "mandatory": false,
+   "internalCategory": "Allgemeines"
+  },
+  {
+    "id": "branche",
+    "question": "Branche:",
+    "type": "single-select",
+    "options": {
+      "Technologie": 3,
+      "Finanzwesen": 0,
+      "Gesundheitswesen": 0,
+      "Bildung": 4,
+      "Handel": 4,
+      "Produktion": 5,
+      "Andere": 5
+    },
+    "weight": 3,
+    "mandatory": true,
+   "internalCategory": "Allgemeines"
+  },
+  {
+    "id": "unternehmensgroesse",
+    "question": "Mitarbeiterzahl:",
+    "type": "category-btns",
+    "categories": {
+      "1 - 50": 5,
+      "50 - 1.000": 4,
+      "1001 - 5.000": 2,
+      "5.001+": 0
+    },
+    "weight": 2,
+    "mandatory": true,
+   "internalCategory": "Allgemeines"
+  },
+
+  {
+    "id": "kategorie_it",
+    "category": "IT"
+  },
+  {
+    "id": "it_infrastruktur",
+    "question": "Verwaltung der IT-Infrastruktur:",
+    "type": "single-select",
+    "options": { "Intern": 0, "Extern": 5, "Intern und Extern": 3 },
+    "weight": 1,
+    "mandatory": true,
+   "internalCategory": "Security"
+  },
+  {
+    "id": "grosse_it_abteilung",
+    "question": "Mitarbeiterzahl der internen IT:",
+    "type": "slider",
+    "min": 1,
+    "max": 100,
+    "step": 5,
+    "defaultValue": 0,
+    "marks": ["1", "50", "100+"],
+    "valueLabelDisplay": "auto",
+    "weight": 2,
+    "mandatory": true,
+    "internalCategory": "Security"
+  },
+
+  {
+    "id": "kategorie_kollaboration",
+    "category": "Kollaboration"
+  },
+  {
+    "id": "wochendurchschnitt_homeoffice_aktuell",
+    "question": "Wochendurchschnitt von Homeoffice:",
+    "type": "single-select",
+    "options": {
+      "0 Tage": 5,
+      "0 - 1 Tage": 5,
+      "1 - 2 Tage": 4,
+      "2 - 3 Tage": 3,
+      "3 - 4 Tage": 2,
+      "4 - 5 Tage": 1,
+      "5 Tage": 0
+    },
+    "weight": 2,
+    "mandatory": true,
+    "internalCategory": "Kollaboration"
+  },
+  {
+    "id": "Mitarbeiterzufriedenheit_über_kolaborationstools",
+    "question": "Wie zufrieden sind die Mitarbeiter mit den kollaborativen Tools ?",
+    "type": "slider",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "defaultValue": 3,
+    "marks": ["1", "2", "3", "4", "5"],
+    "info": "1 = Sehr unzufrieden, 2 = Unzufrieden, 3 = Neutral, 4 = Zufrieden, 5 = Sehr zufrieden",
+    "weight": 2,
+    "mandatory": false,
+    "internalCategory": "Kollaboration"
+  },
+  {
+    "id": "kollaborative_tools",
+    "question": "Genutze kollaborative Tools:",
+    "type": "multi-select",
+    "options": {
+      "Keine in Verwendung": 0,
+      "Microsoft Teams": 5,
+      "Slack": 4,
+      "Jira": 5,
+      "Miro": 3,
+      "Trello": 3,
+      "Asana": 3,
+      "Google Workspace": 3,
+      "Dropbox Business": 3,
+      "Andere": 0
+    },
+    "weight": 2,
+    "mandatory": true,
+    "internalCategory": "Kollaboration"
+  },
+  {
+    "id": "relevanz_office_anwendungen",
+    "question": "Relevanz von Office Anwendungen:",
+    "type": "slider",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "defaultValue": 3,
+    "marks": ["1", "2", "3", "4", "5"],
+    "info": "1 = Irrelevant (wird nicht genutzt), 2 = Geringe Relevanz (wird selten genutzt), 3 = Mittlere Relevanz (wird mehrmals die Woche genutzt), 4 = Hohe Relevanz (wird täglich genutzt), 5 = Sehr hohe Relevanz (wird mehrfach täglich genutzt)",
+    "valueLabelDisplay": "off",
+    "weight": 2,
+    "mandatory": true,
+    "internalCategory": "Kollaboration"
+  },
+  {
+    "id": "relevanz_mobile_endgeraete",
+    "question": "Relevanz von mobilen Endgeräten:",
+    "type": "slider",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "defaultValue": 3,
+    "marks": ["1", "2", "3", "4", "5"],
+    "info": "1 = Irrelevant (wird nicht genutzt), 2 = Geringe Relevanz (wird selten genutzt), 3 = Mittlere Relevanz (wird mehrmals die Woche genutzt), 4 = Hohe Relevanz (wird täglich genutzt), 5 = Sehr hohe Relevanz (wird mehrfach täglich genutzt)",
+    "valueLabelDisplay": "off",
+    "weight": 1,
+    "mandatory": false,
+    "internalCategory": "Kollaboration"
+  },
+  {
+    "id": "kategorie_kommunikation",
+    "category": "Kommunikation"
+  },
+
+  {
+    "id": "online_meeting_platform",
+    "question": "Genutze Meeting-Plattformen:",
+    "type": "multi-select",
+    "options": {
+      "Keine in Verwendung": 0,
+      "Microsoft Teams": 5,
+      "Zoom": 4,
+      "Cisco Webex": 3,
+      "Google Meet": 3,
+      "Skype": 1,
+      "Andere": 0
+    },
+    "weight": 2,
+    "mandatory": true,
+    "internalCategory": "Kommunikation"
+  },
+  {
+    "id": "effektive_kommunikation",
+    "question": "Wie effektiv ist die Kommunikation im Unternehmen?",
+    "type": "slider",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "defaultValue": 3,
+    "marks": ["1", "2", "3", "4", "5"],
+    "info": "1 = Sehr ineffektiv, 2 = Ineffektiv, 3 = Neutral, 4 = Effektiv, 5 = Sehr effektiv",
+    "weight": 2,
+    "mandatory": false,
+    "internalCategory": "Kommunikation"
+  },
+  {
+    "id": "Mitarbeiterkenntnisse_über_kommunkationstools",
+    "question": "Wie gut sind die Mitarbeiter über die Kommunikationstools informiert?",
+    "type": "slider",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "defaultValue": 3,
+    "marks": ["1", "2", "3", "4", "5"],
+    "info": "1 = Sehr schlecht informiert, 2 = Schlecht informiert, 3 = Neutral, 4 = Gut informiert, 5 = Sehr gut informiert",
+    "weight": 2,
+    "mandatory": false,
+    "internalCategory": "Kommunikation"
+  },
+  {
+    "id": "kommunikation_Kunde/Zulieferer",
+    "question": "Wie kommunizieren Sie mit Ihren Kunden oder Zulieferern?",
+    "type": "multi-select",
+    "options": {
+      "Telefon": 2,
+      "E-Mail": 2,
+      "Chat": 3,
+      "Videokonferenz": 3,
+      "Persönlich": 3,
+      "CRM-System": 5,
+      "Andere": 2
+    },
+    "weight": 2,
+    "mandatory": false,
+    "internalCategory": "Kommunikation"
+  },
+  {
+    "id": "kategorie_it_sicherheit",
+    "category": "IT-Sicherheit"
+  },
+  {
+    "id": "authentifizierungsmethode",
+    "question": "Welche Authentifizierungsmethode nutzen Sie?",
+    "type": "multi-select",
+    "options": {
+      "Keine": 0,
+      "Passwort": 1,
+      "Biometrische Authentifizierung": 5,
+      "Zwei-Faktor-Authentifizierung": 5,
+      "Single Sign-On": 5,
+      "Unbekannt": 0
+    },
+    "weight": 1,
+    "mandatory": false,
+    "internalCategory": "Security"
+  },
+  {
+    "id": "vpn",
+    "question": "Nutzen Sie ein VPN?",
+    "weight": 1,
+    "type": "checkbox",
+    "options": {
+      "True": 5,
+      "False": 0
+    },
+    "internalCategory": "Security"
+  },
+  {
+    "id": "schulungen",
+    "question": "Wie häufig werden Mitarbeiter in IT-Sicherheit geschult?",
+    "type": "single-select",
+    "options": {
+      "Keine Schulungen": 0,
+      "Einmal jährlich": 1,
+      "Einmal halbjährlich": 2,
+      "Einmal monatlich": 4,
+      "Regelmäßig": 5
+    },
+    "weight": 1,
+    "mandatory": false,
+    "internalCategory": "Security"
+  },
+  {
+    "id": "backups",
+    "question": "Inwiefern werden Backups gemacht?",
+    "type": "single-select",
+    "options": {
+      "Keine Backups": 0,
+      "Manuelle Backups": 2,
+      "Automatische Backups": 3,
+      "Automatische Backups und regelmäßige Tests": 5
+    },
+    "weight": 1,
+    "mandatory": false,
+    "internalCategory": "Security"
+  },
+  {
+    "id": "sicherheitsvorfaelle",
+    "question": "Wie häufig treten Sicherheitsvorfälle auf?",
+    "type": "single-select",
+    "options": {
+      "Täglich": 0,
+      "Wöchentlich": 1,
+      "Monatlich": 2,
+      "Jährlich": 4,
+      "Nie": 5
+    },
+    "weight": 2,
+    "mandatory": false,
+    "internalCategory": "IT-Sicherheit"
+  },
+  {
+    "id": "meldesystem",
+    "question": "Können Sie Sicherheitsvorfälle online melden?",
+    "type": "checkbox",
+    "weight": 1,
+    "mandatory": false,
+    "options": {
+      "True": 5,
+      "False": 0
+    },
+    "internalCategory": "IT-Sicherheit"
+  },
+  {
+    "id": "kategorie_kontaktaufnahme",
+    "category": "Kontaktaufnahme"
+  },
+  {
+    "id": "email",
+    "question": "Ihre E-Mail-Adresse:",
+    "type": "email",
+    "placeholder": "z.B. name@example.com",
+    "mandatory": true,
+    "internalCategory": "Kontaktaufnahme"
+  },
+  {
+    "id": "telefonnummer",
+    "question": "Ihre Telefonnummer:",
+    "type": "tel",
+    "maxLength": 15,
+    "placeholder": "z.B. +49 123 456789",
+    "mandatory": false,
+    "internalCategory": "Kontaktaufnahme"
+  },
+  {
+    "id": "newsletter",
+    "question": "Newsletter:",
+    "type": "checkbox",
+    "mandatory": false,
+    "internalCategory": "Kontaktaufnahme"
+  },
+  {
+    "id": "adbs",
+    "question": "AGBs und Datenschutzverordnung gelesen:",
+    "type": "checkbox",
+    "mandatory": true,
+    "internalCategory": "Kontaktaufnahme"
+  },
+  {
+    "id": "terminplanung",
+    "question": "Präferierter Tag für ein persönliches Gespräch:",
+    "type": "date",
+    "label": "Datum",
+    "mandatory": false,
+    "internalCategory": "Kontaktaufnahme"
+  }
+]

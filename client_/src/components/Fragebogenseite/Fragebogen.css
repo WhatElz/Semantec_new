@@ -1,0 +1,62 @@
+#questions-wrapper {
+  position: relative;
+  margin: 1% 17%;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.info-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.category-header {
+  font-size: 20px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.question-row {
+  padding: 0 100px;
+}
+.category-btn {
+  border: 2px solid darkgray;
+  padding: 10px 15px;
+}
+.category-btn:hover {
+  background-color: lightgray;
+  color: black;
+}
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.checkbox .form-check-input {
+  width: 20px;
+  height: 20px;
+}
+.checkbox .form-check-input:checked {
+  background-color: aquamarine;
+  border-color: aquamarine;
+}
+
+.mandatory-star {
+  color: red;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.zur-auswertung-btn {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.loading {
+  pointer-events: none;
+  opacity: 0.5;
+}

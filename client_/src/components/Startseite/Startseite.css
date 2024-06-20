@@ -1,0 +1,16 @@
+.page-content {
+  margin: 5% 20%;
+}
+#sysInsight-heading {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 70px;
+  text-align: center;
+}
+#sysInsight-startknopf {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30%;
+}

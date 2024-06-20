@@ -1,0 +1,31 @@
+#login-frame {
+  display: flex;
+  border-radius: 3%;
+  padding: 2%;
+  margin: 3% auto;
+  width: 60%;
+  height: 75vh;
+  background-color: #03c7c7;
+  animation: fadeIn 1.5s ease-in-out;
+  overflow: hidden;
+}
+#login-photo-div {
+  flex: 2;
+}
+#login-photo-div > img {
+  width: 70%;
+  height: auto;
+  margin-left: 7%;
+  border-radius: 3%;
+}
+#login-form {
+  flex: 1;
+  margin-left: 4%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#quick-access {
+  margin-top: 20px;
+}

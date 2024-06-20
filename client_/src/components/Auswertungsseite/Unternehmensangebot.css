@@ -1,0 +1,14 @@
+.unternehmensangebote {
+  background-color: #E5F9F9;
+}
+.unternehmensangebote {
+  position: relative;
+}
+
+.angebot-image {
+  position: absolute;
+  top: 5px; 
+  right: 5px; 
+  width: 50px;
+  height: auto;
+}
